@@ -61,6 +61,7 @@
     $(".gallery").on("click", ".nav-link", function() {
       $(this).addClass('active');
       $(this).css('background-color', '#BEB45A');
+      $(this).css('color', 'black');
       $('.nav-link').not(this).css('background-color', '');
     })
     $(".gallery").on("click", ".mg-prev", () =>
